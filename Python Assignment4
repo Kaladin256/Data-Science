@@ -1,0 +1,54 @@
+1. What exactly is []?
+  Answer: It is an empty list.
+
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+  Answer: spam.insert(2, 'hello')
+  
+Let's pretend the spam includes the list ['a', 'b', 'c', 'd'] for the next three queries.
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+  Answer: 'd'
+
+4. What is the value of spam[-1]?
+  Answer: 'd'
+
+5. What is the value of spam[:2]?
+  Answer: ['a', 'b']
+
+Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+  (There is an error in the given list below answer is given assuming that the actual list is [3.14, 'cat', 11, 'cat', True])
+  Answer: 1
+  
+7. How does bacon.append(99) change the look of the list value in bacon?
+  Answer: [3.14, 'cat', 11, 'cat', True, 99]
+  
+8. How does bacon.remove('cat') change the look of the list in bacon?
+  Answer: [3.14, 11, 'cat', True, 99]
+
+9. What are the list concatenation and list replication operators?
+  Answer: + is the list concatenation operator. * is the list replication operator.
+  
+10. What is difference between the list methods append() and insert()?
+  Answer: append() adds the new elements at the end of the list while insert() adds the element at the specified position
+  
+11. What are the two methods for removing items from a list?
+  Answer: pop() and remove()
+
+12. Describe how list values and string values are identical.
+  Answer: Both of them are sequences of items with index.
+
+13. What's the difference between tuples and lists?
+  Answer: Lists are mutable and tuples are immutable.
+  
+14. How do you type a tuple value that only contains the integer 42?
+  Answer: (42,)
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+  Answer: Using tuple() and list() respectively.
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+  Answer: They contain references to the list values.
+  
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+  Answer: copy.copy() creates a shallow copy and copy.deepcopy() creates a deep copy. When changes are made in shallow copy, it reflects in the original object.
+  But for a deep copy, changes made in the copy are not reflected in the original object.
