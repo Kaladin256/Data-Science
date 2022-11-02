@@ -1,0 +1,49 @@
+1. What are escape characters, and how do you use them?
+  Answer: Escape characters are used along with strings but are not part of strings. They are used for various purposes like moving to a new line while printing and so on.
+  Escape character usually start with a '\' followed by another character. Different combinations serve different purposes.
+
+2. What do the escape characters n and t stand for?
+  Answer: n adds as new line while t adds a tab.
+
+3. What is the way to include backslash characters in a string?
+  Answer: By using 2 backslashes like this: '\\'
+
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+  Answer: Because double quotes were used alternatively to define the string. 
+
+5. How do you write a string of newlines if you don't want to use the n character?
+  Answer: By using triple quotes.
+
+6. What are the values of the given expressions?
+'Hello, world!'[1]
+'Hello, world!'[0:5]
+'Hello, world!'[:5]
+'Hello, world!'[3:]
+  Answer: 
+  'Hello, world!'[1] : 'e'
+  'Hello, world!'[0:5] : 'Hello'
+  'Hello, world!'[:5] : 'Hello'
+  'Hello, world!'[3:] : 'lo, world!'
+
+7. What are the values of the following expressions?
+'Hello'.upper()
+'Hello'.upper().isupper()
+'Hello'.upper().lower()
+  Answer:
+  'Hello'.upper() : 'HELLO'
+  'Hello'.upper().isupper() : True
+  'Hello'.upper().lower() : 'hello'
+
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()
+'-'.join('There can only one.'.split())
+  Answer:
+    'Remember, remember, the fifth of July.'.split() : ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+    '-'.join('There can only one.'.split()) : 'There-can-only-one.'
+    
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+  Answer: ljust(), rjust() and center() respectively
+
+10. What is the best way to remove whitespace characters from the start or end?
+  Answer: Using trim()
+
